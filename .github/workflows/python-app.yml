@@ -21,5 +21,5 @@ jobs:
           # cache: 'poetry' # 设置缓存
 
       #- run: poetry install --without dev # 安装
-      #- run: poetry run python .\main.py # 执行
-      - run: python .\main.py
+      #- run: poetry run python ./main.py # 执行
+      - run: python ./main.py
